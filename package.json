@@ -1,0 +1,38 @@
+{
+  "name": "gitmedic",
+  "version": "1.0.0",
+  "description": "GitMedic 🩺 - Autonomous AI GitHub App that diagnoses, cures, and test-proves repository issues.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "github-app",
+    "ai-agent",
+    "probot",
+    "autonomous-coding",
+    "bug-fixer",
+    "gitmedic",
+    "developer-tools"
+  ],
+  "author": "Mahmoud Ghazy <mahmoudghazy2001@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^21.1.1",
+    "dotenv": "^16.4.7",
+    "probot": "^13.4.4",
+    "simple-git": "^3.27.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "smee-client": "^5.0.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7"
+  }
+}

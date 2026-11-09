@@ -1,0 +1,14 @@
+name: GitMedic
+url: https://github.com/ghazy2001/gitmedic
+description: Autonomous AI agent that cures GitHub issues with test-driven precision (TDD).
+hook_attributes:
+  url: https://smee.io/gd82ie9dX6L2cHsb
+default_events:
+  - issues
+  - issue_comment
+  - pull_request
+default_permissions:
+  issues: write
+  pull_requests: write
+  contents: write
+  metadata: read
